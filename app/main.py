@@ -11,9 +11,9 @@ def root():
 
 
 @app.post("/predict", response_model=SentimentResponse)
-def predict(request: SentimentRequest):
+def predict_text_sentiment(request: SentimentRequest):
     """
-    Sentiment predicton.
+    Text Sentiment prediction.
     :param request: Takes in a text string sentence.
     :return: response: Returns a sentiment prediction.
     """
