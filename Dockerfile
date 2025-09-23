@@ -1,4 +1,4 @@
-# Dockerfile for sentiment API
+# Dockerfile for Sentiment API
 
 FROM python:3.11-slim
 
